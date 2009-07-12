@@ -1,0 +1,6 @@
+Persistent connection to database server in Django.
+=======
+
+This application, if installed, prevents closing database connection
+after each HTTP request. Instead closes database connection
+after timeout (2 minutes by default). Timeout can be set via settings.DEFAULT_UNUSED_DB_CONNECTION_TIMEOUT
